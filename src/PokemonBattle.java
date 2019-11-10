@@ -1,3 +1,16 @@
+/***
+ * Grading Comments:  16/25
+ *  Well, it's obviously not finished.   I know you guys
+ * were dealing with AP Bio tests and you are not alone in not finishing.
+ *   I will regrade again Monday evening but for now I'll grade as-is.
+ *  RUBRIC Unit 3 = 25 pts
+ * 10 pts - Correct Output (must compile and run)   5/10
+ * 5 pts - Proper Use of Scanner, and decent User Interface 4/5  You have an extra unused scanner in damage.
+ * 3 pts - Proper Use of Return     2/3 - you need one for asked() to get back hp.
+ * 3 pts - Proper User of Parameter   3/3
+ * 2 pts - Pseudocode and comments    0/2
+ * 2 pts - Consistent Layout and Style following Style Guidelines  2/2
+ */
 import java.util.*;
 public class PokemonBattle {
 
