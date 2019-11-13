@@ -124,7 +124,7 @@ public class PokemonBattle {
 		double damage1 = (2 * level + 10) / 250;
 		double damage2 = (attack / defense) * base + 2;
 		
-		double modifier = Math.random() * STAB;
+		double modifier = 0.85 + (Math.random() * 0.25);
 		
 		double damageValue = (damage1 + damage2) * modifier;
 		
