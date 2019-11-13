@@ -1,9 +1,3 @@
-//unfortunately I have no idea what I'm doing
-//idk how everyone else is so smart
-//while I'm over here with a brain the size of my self-confidence (that would be very, very small)
-//but ya know whatever floats your muffin
-//enjoy!
-
 /* 
  MAIN
  	set variable pokemon to battleStart
@@ -41,7 +35,6 @@ public class PokemonBattle {
 	
 	public static String battleStart() {
 		Scanner console = new Scanner(System.in);
-		//did I mention I have no idea what's wrong with the scanner?
 		
 		//introduction
 		System.out.println("Another trainer is issuing a challenge!");
@@ -131,7 +124,6 @@ public class PokemonBattle {
 		double damage1 = (2 * level + 10) / 250;
 		double damage2 = (attack / defense) * base + 2;
 		
-		//sorry sorry sorry I don't know how to make it between .85 and 1.0
 		double modifier = Math.random() * STAB;
 		
 		double damageValue = (damage1 + damage2) * modifier;
@@ -140,3 +132,4 @@ public class PokemonBattle {
 		return (int) damageValue;
 	}
 }
+
