@@ -1,3 +1,7 @@
+//Sorry for the problems! Turns out I submitted a really old early version
+//so it's no wonder I was so confused how I could've done so terribly XD
+//Theoretically this is the current one, hopefully it's better than the last!
+
 /* 
  MAIN
  	set variable pokemon to battleStart
